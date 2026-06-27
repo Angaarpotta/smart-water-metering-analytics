@@ -2,15 +2,8 @@ import React, { useState } from 'react'
 import {
   Play,
   CheckCircle,
-  GitPullRequest,
-  Code,
-  Terminal,
-  Zap,
   Check,
   RefreshCw,
-  Clock,
-  Send,
-  Database,
   ArrowRight
 } from 'lucide-react'
 

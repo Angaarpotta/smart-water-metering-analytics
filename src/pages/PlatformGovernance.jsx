@@ -5,10 +5,7 @@ import {
   Lock,
   GitBranch,
   CheckCircle,
-  AlertTriangle,
   ArrowRight,
-  Database,
-  Cpu,
   UserCheck
 } from 'lucide-react'
 

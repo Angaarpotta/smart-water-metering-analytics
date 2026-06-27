@@ -1,14 +1,9 @@
 import React, { useState } from 'react'
 import {
-  Brain,
-  MessageSquare,
   ThumbsUp,
   ThumbsDown,
-  BookOpen,
-  ArrowRight,
-  TrendingUp,
   CheckCircle,
-  FileCheck
+  Send
 } from 'lucide-react'
 import {
   BarChart,

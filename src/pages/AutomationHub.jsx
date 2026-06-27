@@ -1,15 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import {
-  Workflow,
-  BrainCircuit,
-  ShieldAlert,
-  Clock,
   TrendingUp,
-  GitBranch,
-  Layers,
   ArrowRight,
-  Code
+  Code,
+  BrainCircuit,
+  ShieldAlert
 } from 'lucide-react'
 import {
   AreaChart,
@@ -18,12 +14,7 @@ import {
   YAxis,
   CartesianGrid,
   Tooltip,
-  ResponsiveContainer,
-  BarChart,
-  Bar,
-  Cell,
-  PieChart,
-  Pie
+  ResponsiveContainer
 } from 'recharts'
 
 // Mock CoE Metrics

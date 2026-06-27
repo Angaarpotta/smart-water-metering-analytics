@@ -1,4 +1,4 @@
-import { Download, Printer, RefreshCw } from 'lucide-react'
+import { Printer, RefreshCw } from 'lucide-react'
 import { printReport } from '../../utils/exportUtils'
 
 const PAGE_META = {

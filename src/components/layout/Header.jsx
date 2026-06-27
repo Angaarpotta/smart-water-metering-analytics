@@ -7,6 +7,10 @@ const PAGE_META = {
   '/leakage-analysis':     { title: 'Leakage Analysis',      subtitle: 'Anomaly detection, zone heatmap, and alert feed' },
   '/regulatory-reporting': { title: 'Regulatory Reporting',  subtitle: 'MOSL · Ofwat · Water UK — compliance and submission tracker' },
   '/data-quality':         { title: 'Data Quality',          subtitle: 'Validation rules, error log, and data integrity metrics' },
+  '/automation-hub':       { title: 'CoE Overview',          subtitle: 'Automation Center of Excellence overview, performance, and strategy' },
+  '/n8n-orchestration':    { title: 'n8n Orchestration',     subtitle: 'Code-based visual integrations, events, and API pipelines' },
+  '/ai-adoption':          { title: 'AI Adoption',           subtitle: 'User adaptation metrics, Copilot adoption, and RAG monitoring' },
+  '/platform-governance':  { title: 'Platform Governance',   subtitle: 'Security controls, DLP rules, RBAC compliance, and environments' },
 }
 
 export default function Header({ pathname, lastUpdated }) {

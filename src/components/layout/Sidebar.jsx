@@ -5,7 +5,10 @@ import {
   Droplets,
   FileText,
   ShieldCheck,
-  Activity,
+  Workflow,
+  BrainCircuit,
+  ShieldEllipsis,
+  Cpu,
 } from 'lucide-react'
 
 const NAV_ITEMS = [
@@ -22,6 +25,16 @@ const NAV_ITEMS = [
     items: [
       { to: '/regulatory-reporting', icon: FileText,    label: 'Regulatory Reporting', id: 'nav-regulatory' },
       { to: '/data-quality',         icon: ShieldCheck, label: 'Data Quality',         id: 'nav-quality' },
+    ],
+  },
+  {
+    section: 'Automation Hub',
+    accent: true,
+    items: [
+      { to: '/automation-hub',        icon: Cpu,             label: 'CoE Overview',         id: 'nav-automation-hub' },
+      { to: '/n8n-orchestration',     icon: Workflow,        label: 'n8n Orchestration',    id: 'nav-n8n' },
+      { to: '/ai-adoption',           icon: BrainCircuit,    label: 'AI Adoption',          id: 'nav-ai-adoption' },
+      { to: '/platform-governance',   icon: ShieldEllipsis,  label: 'Platform Governance',  id: 'nav-governance' },
     ],
   },
 ]

@@ -143,7 +143,7 @@ export default function MeterPerformance() {
       {/* Source breakdown visual */}
       <div className="card mb-5 animate-in animate-in-3">
         <div className="card-header">
-          <div className="card-title">Today's Source Split</div>
+          <div className="card-title">Today&apos;s Source Split</div>
           <div className="card-subtitle">Most recent read cycle — {reads[reads.length - 1]?.date || 'N/A'}</div>
         </div>
         <div style={{ display: 'flex', gap: 16, alignItems: 'center' }}>
